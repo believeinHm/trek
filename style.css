@@ -44,14 +44,19 @@ footer span {
   letter-spacing: 1px;
 }
 
+/* Navigation */
 nav {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 
 nav a {
   color: #111;
   text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  white-space: nowrap;
 }
 
 nav a:hover,
@@ -59,6 +64,7 @@ nav .active {
   color: #ed5b18;
 }
 
+/* Book Now */
 .book,
 .explore {
   background: #ed5b18;
@@ -67,8 +73,8 @@ nav .active {
   padding: 14px 25px;
   border-radius: 8px;
   font-size: 15px;
+  text-decoration: none;
 }
-
 /* Hero */
 
 .hero {
